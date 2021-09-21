@@ -7,7 +7,9 @@ Software Design
 
 <p>&nbsp;</p>
 **Project Abstract**
+
 ![alt text](USERCASE%20DIAGRAM.PNG)
+
 	This project will be to build an organization system for hospitals. It functions on setting priorities for patients by looking at part of the hospital they are in whether it be the ICU, ER, or just a routine checkup. Profiles will exist for each patient and will contain various personal information. When a new patient is admitted, they will be placed in either of the previous mentioned categories, and then an urgency number (1 being the most urgent, and 5 being the least) based on their injury or lack of injury. There will also include a portal of some type with the option to sign in as a doctor, a nurse, or a patient with each having different privileges. A doctor can see every patient and which nurse is taking care of them as well as up coming procedure to be done by other doctors and nurses. A nurse can see what patients are next to be treated and the room number they are in. A patient can see the bills they have accrued, which doctor is treating them, what room they are in, and whether or not they have been cleared to go. Patients may also alter their personal information and insurance while nurses and doctors alter specification for treatment and priority levels. Patients also have access to a map of the hospital and cafeteria menu. They can also choose different payment plans for paying off their bills based on their credit score and health insurance rating. Doctors can also see the trend of patients and diseases via graphs with check marks indicating filters. I would also kind of like to have minimal queries and calls to the database so maybe a sort of cache map could be created to sort of hold the newest entered patients and then clear it upon log out.
 <p>&nbsp;</p>
 **Project Relevance**
